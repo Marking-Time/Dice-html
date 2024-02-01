@@ -21,6 +21,6 @@ function unfade(element) {
         }
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op += op * 0.1;
+        op += op * 0.05;
     }, 10);
 }
